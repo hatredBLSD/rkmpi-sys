@@ -1,0 +1,15 @@
+[package]
+name = "rkmpi-sys"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+description = "Raw FFI bindings to the Rockchip Rockit MPI SDK for RV1103/RV1106 (Luckfox Pico)"
+license = "Apache-2.0"
+repository = "https://github.com/<ты>/rkmpi-sys"
+readme = "README.md"
+keywords = ["rockchip", "rv1106", "rv1103", "luckfox", "ffi", "multimedia"]
+categories = ["external-ffi-bindings", "multimedia", "embedded"]
+exclude = ["rockit/"]          # заголовки и librockit.so в пакет не попадают
+
+[dependencies]
+libc = "0.2"
