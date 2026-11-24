@@ -5,5 +5,7 @@ fn main() {
         println!("cargo:rustc-link-search=native={lib_dir}");
     }
     println!("cargo:rustc-link-lib=dylib=rockit");
+    println!("cargo:rustc-link-lib=dylib=rockchip_mpp");
+    println!("cargo:rustc-link-lib=dylib=rga");
     println!("cargo:rerun-if-env-changed=ROCKIT_LIB");
 }
