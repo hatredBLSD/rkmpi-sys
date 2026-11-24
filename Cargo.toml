@@ -9,7 +9,5 @@ repository = "https://github.com/hatredBLSD/rkmpi-sys/"
 readme = "README.md"
 keywords = ["rockchip", "rv1106", "rv1103", "luckfox", "ffi", "multimedia"]
 categories = ["external-ffi-bindings", "multimedia", "embedded"]
-exclude = ["rockit/"]
-
 [dependencies]
 libc = "0.2"
