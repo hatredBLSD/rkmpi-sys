@@ -60,6 +60,8 @@ fn main() {
 }
 ```
 
+More examples: [examples](https://github.com/hatredBLSD/example_rkmpi_sys)
+
 ## Regenerating the bindings
 
 Generated with bindgen 0.71 from the headers in `media/rockit/rockit/mpi/sdk/include`
